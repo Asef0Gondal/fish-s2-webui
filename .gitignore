@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Local system files
+.DS_Store
+
+# Local generation audio outputs (do not commit binary generated assets)
+outputs/*.wav
+
+# Local user-added voice presets (keep the library folder structure but exclude individual presets to protect privacy)
+voices/*/
+!voices/.gitkeep

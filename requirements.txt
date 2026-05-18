@@ -1,0 +1,7 @@
+mlx-speech
+mlx-whisper
+fastapi
+uvicorn[standard]
+python-multipart
+soundfile
+numpy
